@@ -90,7 +90,7 @@ img{
     text-align: center;
     width: :200px;
   }
-/*------------------------------------Animation-----------------------------------------*/
+/*--------------------------------Animation--------------------------------------------*/
   /* Wave Animation from Goodkatz@Codepen.io (https://codepen.io/goodkatz/pen/LYPGxQz) */
   .waves {
     position:relative;
@@ -134,20 +134,37 @@ img{
       height:40px;
       min-height:40px;}
     }
-  /*------------------End of Animation--------------------------------------------*/
+  /*-------------------------End of Animation-------------------------------------*/
 
   /*-----------------------------Buttons------------------------------------------*/
  
-
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color:#00558c;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'CabinetGrotesk-semibold', sans-serif; 
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    margin: 40px;
+  }
   .btn-3 {
-    background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    background: #C4D6A4;
+  background: linear-gradient(0deg, #C4D6A4, #a7d25d 100%);
     width: 130px;
     height: 40px;
     line-height: 42px;
     padding: 0;
     border: none;
-    font-family: 'CabinetGrotesk-semibold', sans-serif; 
     
   }
   .btn-3 span {
@@ -162,7 +179,7 @@ img{
     content: "";
     right: 0;
     top: 0;
-     background: rgba(2,126,251,1);
+     background: #ff6a13;
     transition: all 0.3s ease;
   }
   .btn-3:before {
@@ -184,7 +201,7 @@ img{
     width: 100%;
   }
   .btn-3 span:hover{
-     color: rgba(2,126,251,1);
+     color:#C4D6A4;
   }
   .btn-3 span:before,
   .btn-3 span:after {
@@ -192,7 +209,7 @@ img{
     content: "";
     left: 0;
     bottom: 0;
-     background: rgba(2,126,251,1);
+     background: #ff6a13;
     transition: all 0.3s ease;
   }
   .btn-3 span:before {
