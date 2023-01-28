@@ -10,7 +10,7 @@ img{
   
   body {
     padding: 1rem;
-    background-color: #000203;
+    background-color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -18,6 +18,44 @@ img{
     font-family: 'CabinetGrotesk-Bold';
   }
 
+  #GD {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 24pt;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-color: rgb(81, 12, 134,.5); 
+    padding: 2em;
+    background-image: linear-gradient(rgba(86, 4, 148, 0.5), rgb(255, 255, 255,.5)),
+    url("https://lh3.googleusercontent.com/rgUhiUt3ykIHQrl4ljUhPH-1y7bpKjxXNaOdlfWhvx9oKl39XGUJjSPcmoiqn2ECpa1SLRCvPOkchZcLjubu42FIKTlt3JJHwQk6bkuA2M_Zc9wvLfPPUpvar8zEj54ciSeVbZcOUw=w2400");
+    background-position: center;
+  }
+
+  #WD  {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 24pt;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-color: rgb(81, 12, 134,.5); 
+    padding: 2em;
+    background-image: linear-gradient(rgba(5, 255, 51, 0.917), rgb(255, 255, 255,.5)),
+    url("https://lh3.googleusercontent.com/rgUhiUt3ykIHQrl4ljUhPH-1y7bpKjxXNaOdlfWhvx9oKl39XGUJjSPcmoiqn2ECpa1SLRCvPOkchZcLjubu42FIKTlt3JJHwQk6bkuA2M_Zc9wvLfPPUpvar8zEj54ciSeVbZcOUw=w2400");
+    background-position: center;
+  }
+
+  #UX {
+    font-family: 'CabinetGrotesk-Bold';
+    font-size: 24pt;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    background-color: rgb(81, 12, 134,.5); 
+    padding: 2em;
+    background-image: linear-gradient(rgba(4, 245, 229, 0.5), rgb(255, 255, 255,.5)),
+    url("https://lh3.googleusercontent.com/rgUhiUt3ykIHQrl4ljUhPH-1y7bpKjxXNaOdlfWhvx9oKl39XGUJjSPcmoiqn2ECpa1SLRCvPOkchZcLjubu42FIKTlt3JJHwQk6bkuA2M_Zc9wvLfPPUpvar8zEj54ciSeVbZcOUw=w2400");
+    background-position: center;
+  }
   ul {  
       background-color: white;  
       position: fixed;
