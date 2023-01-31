@@ -3,10 +3,6 @@
 @import url(cabinet-grotesk.css);
 
 
-img{
-height: auto;
-max-width: 100%;
-}
 
   
   body {
@@ -20,7 +16,7 @@ max-width: 100%;
 
   #Name{
     font-family: 'CabinetGrotesk-Bold';
-    font-size: 2vw;
+    font-size: 5em;
     color: #00558c;
     text-align: center;
     position: relative;
@@ -28,7 +24,7 @@ max-width: 100%;
   }
 
   #Selfie{
-    max-width: 15%;
+    max-width: 20em;
     height: auto;
     border-radius: 50%;
     margin: 0 auto;
@@ -38,7 +34,7 @@ max-width: 100%;
 
 #About_Text{
   font-family: 'CabinetGrotesk-Regular';
-  font-size:1vw;
+  font-size:2em;
   color: #00558c;
   text-align: center;
   position: relative;
