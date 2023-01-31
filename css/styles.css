@@ -10,73 +10,54 @@ img{
   
   body {
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #afffb9;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     font-family: 'CabinetGrotesk-Bold';
   }
-
-  #GD {
-    font-family: 'CabinetGrotesk-Bold';
-    font-size: 24pt;
-    line-height: 1.5;
-    color: rgb(255, 255, 255);
-    margin: 0;
-    background-color: rgb(81, 12, 134,.5); 
-    padding: 2em;
-    background-image: linear-gradient(rgba(86, 4, 148, 0.5), rgb(255, 255, 255,.5)),
-    url("https://lh3.googleusercontent.com/rgUhiUt3ykIHQrl4ljUhPH-1y7bpKjxXNaOdlfWhvx9oKl39XGUJjSPcmoiqn2ECpa1SLRCvPOkchZcLjubu42FIKTlt3JJHwQk6bkuA2M_Zc9wvLfPPUpvar8zEj54ciSeVbZcOUw=w2400");
+  #Priest_Lake{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://lh3.googleusercontent.com/opf1RqKbJ2PLFIQILqgAG6w1k2rq0OAzV_mTHQDUVJ1FGDdb9Aa5vMTCWiGQQhctSQIC__asf0s0hYrTJ1Mn0qNrROUIyg_krHCaHDc8yvFQV1xqnLICeI7f41LY2xHrRpWuQYES7A=w2400");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    position: relative;
   }
 
-  #WD  {
+  #Name{
     font-family: 'CabinetGrotesk-Bold';
-    font-size: 24pt;
-    line-height: 1.5;
-    color: rgb(255, 255, 255);
-    margin: 0;
-    background-color: rgb(81, 12, 134,.5); 
-    padding: 2em;
-    background-image: linear-gradient(rgba(5, 255, 51, 0.917), rgb(255, 255, 255,.5)),
-    url("https://lh3.googleusercontent.com/rpHU8BqNxFjfc2b_Jtu7DScfb_o10luEQBg25Ei_Y1nFivxNKHOE3Z1BUyark8GbT7AmLZd2jNSlS9Yxp2Yh-z6Cw15-KQb5LZ2oTWt6BKnSaLl2yU9eMvkWmuz708Bqeztc4AC9OA=w2400");
-    background-position: center;
+    font-size: 48px;
+    color: #00558c;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    margin: auto;
   }
 
-  #UX {
-    font-family: 'CabinetGrotesk-Bold';
-    font-size: 24pt;
-    line-height: 1.5;
-    color: rgb(255, 255, 255);
-    margin: 0;
-    background-color: rgb(81, 12, 134,.5); 
-    padding: 2em;
-    background-image: linear-gradient(rgba(4, 245, 229, 0.5), rgb(255, 255, 255,.5)),
-    url("https://lh3.googleusercontent.com/Qc7TXHaTINaVIJvDo_FCJTVRMbzCwQoCJo5Z-CJvk18oujsDS3Eu7-tRn41VHnYQ8XcAx2AJlQ5MNlIuSwBNoM4K6clDWVW9MWTDaJaAlC9YFPeFYg62Pr03cOzNqmp1RrfVcoof6Q=w2400");
-    background-position: center;
+  #Selfie{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom:150px;
   }
-  ul {  
-      background-color: white;  
-      position: fixed;
-      opacity: .75;  
-      left: 0;  
-      right: 0;  
-      top: 5px;  
-      height: 50px;  
-      display: flex;  
-      align-items: center;  
 
-      }  
-      ol {  
-      display: inline;
-      padding: 3em;
-    
-      }  
-      a {  
-      margin: 3em;
-      padding: 0 1em;  
-      }  
+#About_Text{
+  font-family: 'CabinetGrotesk-Regular';
+  font-size: 18px;
+  color: #00558c;
+  text-align: center;
+  padding-left: 700px;
+  padding-right: 700px;
+  position: relative;
+  bottom: 150px;
+}
 /*--------------------------------Animation--------------------------------------------*/
   
 
@@ -84,13 +65,16 @@ img{
 
   /*-----------------------------Buttons------------------------------------------*/
  
+ figcaption{
+  text-align: center;
+ }
   .custom-btn {
     width: 130px;
     height: 40px;
-    color:#00558c;
+    color:#afffb9;
     border-radius: 5px;
     padding: 10px 25px;
-    font-family: 'CabinetGrotesk-semibold', sans-serif; 
+    font-family: 'CabinetGrotesk-Bold', sans-serif; 
     font-size: 15px;
     background: transparent;
     cursor: pointer;
@@ -101,14 +85,14 @@ img{
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
-    margin: 40px;
+    margin: 30px;
+    font-size: 20px;
   }
   .btn-3 {
-    background: #C4D6A4;
-  background: linear-gradient(0deg, #C4D6A4, #a7d25d 100%);
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
+    background: #00558c;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
     padding: 0;
     border: none;
     
@@ -125,7 +109,7 @@ img{
     content: "";
     right: 0;
     top: 0;
-     background: #ff6a13;
+     background: #13a9ff;
     transition: all 0.3s ease;
   }
   .btn-3:before {
@@ -135,6 +119,7 @@ img{
   .btn-3:after {
     width: 0%;
     height: 2px;
+    
   }
   .btn-3:hover{
      background: transparent;
@@ -147,7 +132,7 @@ img{
     width: 100%;
   }
   .btn-3 span:hover{
-     color:#C4D6A4;
+     color:#00558c;
   }
   .btn-3 span:before,
   .btn-3 span:after {
@@ -155,8 +140,8 @@ img{
     content: "";
     left: 0;
     bottom: 0;
-     background: #ff6a13;
-    transition: all 0.3s ease;
+     background: #13a9ff;
+    transition: all 0.6s ease;
   }
   .btn-3 span:before {
     width: 2px;
