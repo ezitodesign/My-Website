@@ -12,7 +12,6 @@ max-width: 100%;
   body {
     padding: 1rem;
     background-color: #afffb9;
-    font-size: 16px;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@ max-width: 100%;
 
   #Name{
     font-family: 'CabinetGrotesk-Bold';
-    font-size: 48px;
+    font-size: 2vw;
     color: #00558c;
     text-align: center;
     position: relative;
@@ -39,11 +38,9 @@ max-width: 100%;
 
 #About_Text{
   font-family: 'CabinetGrotesk-Regular';
-  font-size: 18px;
+  font-size:1vw;
   color: #00558c;
   text-align: center;
-  padding-left: 700px;
-  padding-right: 700px;
   position: relative;
 }
 /*--------------------------------Animation--------------------------------------------*/
