@@ -7,17 +7,34 @@
   
   body {
     padding: 1rem;
-    background-color: #afffb9;
+    background-color: #1d1e83;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     font-family: 'CabinetGrotesk-Bold';
   }
 
+  #Background{
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 25%;
+    width: 75%;
+    position: relative;*/
+  }
   #Name{
     font-family: 'CabinetGrotesk-Bold';
     font-size: 5em;
-    color: #00558c;
+    color: #dd6e2e;
     text-align: center;
     position: relative;
     margin: auto;
@@ -29,15 +46,18 @@
     border-radius: 50%;
     margin: 0 auto;
     display: flex;
-    position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
 
 #About_Text{
   font-family: 'CabinetGrotesk-Regular';
   font-size:2em;
-  color: #00558c;
+  color: #067eee;
   text-align: center;
   position: relative;
+  margin: auto;
 }
 /*--------------------------------Animation--------------------------------------------*/
   
@@ -66,7 +86,7 @@
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
-    margin-bottom: 30px;
+    margin: 30px;
     font-size: 20px;
   }
   .btn-3 {
